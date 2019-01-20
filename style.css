@@ -1,0 +1,23 @@
+.tekst button{
+	border-radius: 30px;
+	cursor: pointer;
+}
+.item{
+	position: relative;
+	padding-left: 0;
+	padding-right: 0;
+}
+.item .tekst{
+	position: absolute;
+	top: 20%;
+	left: 35%;
+	color: black;
+}
+.tekst{
+	z-index: -1;
+}
+.slika:hover{
+	opacity: 0.1;
+	z-index: -2;
+}
+
