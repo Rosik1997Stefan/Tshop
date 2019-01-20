@@ -1,3 +1,54 @@
+.nav-grey {
+    background-color: #809091;
+}
+
+.nav-grey a, .nav-grey-2 a {
+    color: white !important;
+    font-weight: bolder;
+    font-size: 11px;
+}
+
+.nav-grey a {
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+    background-color: #809091;
+}
+
+.nav-grey-2 {
+    background-color: #a2aeaf;
+}
+
+.navbar-header>a{
+    color: white;
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.flex h1{
+    font-size: 60px;
+    font-weight: 900;
+}
+
+.carousel-inner .row {
+    height: 70vh;
+    background-color: #000000;
+}
+
+.item:hover img {
+    opacity: 0.5;
+}
+
+.flex {
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
 .borderz {
     border-radius: 0;
 }
@@ -26,4 +77,30 @@
 
 .signupbtn {
     background: linear-gradient(135deg, rgba(252,206,40,0.5) 0%,rgba(254,144,144,0.5) 45%,rgba(254,128,140,0.5) 63%,rgba(255,94,131,0.5) 100%);
+}
+
+.height {
+    height: 20vh;
+}
+
+.f-title {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.footer hr {
+    border: 1px solid rgb(216, 216, 216);
+}
+
+.f-text {
+    font-size: 23px;
+}
+
+.footer .krug a i {
+    padding: 7px;
+    border-radius: 100px;
+    background-color: grey;
+    color: white;
+    margin: 2px;
+    font-size: 20px;
 }

@@ -22,7 +22,28 @@
 
 </head>
 <body>
-
+    <nav class="nav text-uppercase navbar-inverse nav-grey">
+        <div class="container">          
+            <ul class="nav navbar-nav navbar-left">
+                <li>
+                    <a href="#">help</a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fas fa-phone"></i><span>+389 225 559</span>
+                    </a>
+                </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="#">my account</a>
+                    </li>
+                    <li>
+                        <a href="#">sign in</a>
+                    </li>
+                    <li>
+                        <a data-toggle="modal" href="#signUpModal">create account</a>
+                    </li>
                     <div class="modal fade" id="signUpModal" tabindex="-1" role="dialog" aria-labelledby="signUpModalLabel">
                             <div class="modal-dialog" role="document">
                               <div class="modal-content borderz">
@@ -60,7 +81,7 @@
                                                 <div class="form-group termsconditions">
                                                     <input type="checkbox">I agree to the terms and conditions
                                                 </div>
-                                                <button type="submit" class="btn signupbtn">Sign Up</button>
+                                                <button type="submit" class="btn">Sign Up</button>
                                                 <button type="submit" class="btn">Sign In</button>
                                             </form>
                                         </div>
@@ -69,8 +90,155 @@
                               </div>
                             </div>
                           </div>
-                
+                </ul>
+        </div>
+    </nav>
 
-   
+    <nav class="nav text-uppercase navbar-inverse nav-grey-2">
+            <div class="container">  
+                <div class="navbar-header">
+                    <a class="navbar-brand logo" href="index.html">TSHOP</a>
+                </div>
+
+                <ul class="nav navbar-nav navbar-left">
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">new products</a>
+                    </li>
+                    <li>
+                        <a href="#">shop</a>
+                    </li>
+                    <li>
+                        <a href="#">pages</a>
+                    </li>
+                    <li>
+                        <a href="#">all page link</a>
+                    </li>
+                </ul>
+                
+                <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="#">
+                                <i class="fas fa-shopping-cart"></i>
+                                cart ($54.00)
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fas fa-search"></i></a>
+                        </li>
+                    </ul>
+            </div>
+        </nav>
+
+        <div class="container-fluid">
+            <div class="row">
+                <div id="homeCarousel" class="carousel slide text-uppercase bg-carousel-home" data-ride="carousel">
+
+                    <div class="carousel-inner" role="listbox">
+                        <div class="item active">
+                            <div class="row">
+                                <img src="img/slide_01.png" class="img-responsive">
+                                <div class="carousel-caption flex">
+                                    <h1>TSHOP</h1>
+                                    <h4>responsive ecommerce template</h4>  
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="row">
+                                <img src="img/slide_02.png" class="img-responsive">
+                                <div class="carousel-caption flex">
+                                    <h1>TSHOP</h1>
+                                    <h4>responsive ecommerce template</h4>  
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="row">
+                                <img src="img/slide_03.png" class="img-responsive">
+                                <div class="carousel-caption flex">
+                                    <h1>TSHOP</h1>
+                                    <h4>responsive ecommerce template</h4>  
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="row footer padtop">
+                <div class="col-md-10 col-md-offset-1">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <h4 class="text-uppercase f-title">support</h4>      
+                            <hr>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                            <p class="f-text"><b><i class="fas fa-phone"></i>+389 2255 555</b></p>
+                            <p class="f-text"><i class="far fa-envelope"></i>help@mail.com</p>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <h4 class="text-uppercase f-title">shop</h4>
+                                    <hr>
+                                    <ul class="list-unstyled">
+                                        <li>Item</li>
+                                        <li>Item</li>
+                                        <li>Item</li>
+                                        <li>Item</li>
+                                        <li>Item</li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-4">
+                                    <h4 class="text-uppercase f-title">information</h4>
+                                    <hr>
+                                    <ul class="list-unstyled">
+                                        <li>Item</li>
+                                        <li>Item</li>
+                                        <li>Item</li>
+                                        <li>Item</li>
+                                        <li>Item</li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-4">
+                                    <h4 class="text-uppercase f-title">my account</h4>
+                                    <hr>
+                                    <ul class="list-unstyled">
+                                        <li>Item</li>
+                                        <li>Item</li>
+                                        <li>Item</li>
+                                        <li>Item</li>
+                                        <li>Item</li>
+                                    </ul>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <h4 class="text-uppercase f-title">stay in touch</h4>
+                            <hr>
+                            <form class="form text-center">
+                                <div class="form-group">
+                                        <input type="email" class="form-control" placeholder="email">
+                                </div>
+                                <button type="submit" class="btn btn-block">Subscribe</button>
+                            </form>
+                            <ul class="list-unstyled list-inline krug">
+                                <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+                                <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+                                <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+                                <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+                                <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
 </body>
 </html>
