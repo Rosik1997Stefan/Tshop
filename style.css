@@ -37,7 +37,7 @@
     background-color: #000000;
 }
 
-img {
+.item:hover img {
     opacity: 0.5;
 }
 
