@@ -1,3 +1,4 @@
+
 .nav-grey {
     background-color: #809091;
 }
@@ -48,3 +49,48 @@
     align-items: center;
     flex-direction: column;
 }
+
+.slika {
+   position: relative;
+   padding: 0;
+}
+
+.slika img {
+   width: 100%;
+}
+
+.overlay {
+   position: absolute;
+   left: 0;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   height: 100%;
+   width: 100%;
+   opacity: 0;
+   transition: .5s ease;
+   background-color: white;
+ }
+
+ .slika:hover .overlay {
+   opacity: 0.8;
+ }
+
+ .text {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   -webkit-transform: translate(-50%, -50%);
+   -ms-transform: translate(-50%, -50%);
+   transform: translate(-50%, -50%);
+
+ }
+ .padtop{
+   background-color: lightgray;
+   padding-top: 3rem;
+ }
+ .padbot{
+   padding-bottom: 3rem;
+   background-color: lightgrey;
+ }
+
