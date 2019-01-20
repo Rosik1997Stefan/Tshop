@@ -33,3 +33,49 @@
    transform: translate(-50%, -50%);
 
  }
+ .modal-dialog{
+   width: 50%;
+ }
+ .flexx{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   justify-content: space-around;
+ }
+ .flexx img{
+   width: 15%;
+ }
+ .t{
+   text-decoration: line-through;
+ }
+ .bor{
+   border: 1px solid black;
+ }
+ .flexxx{
+   display: flex;
+   width: 20vh;
+   justify-content: space-between;
+ }
+ .flexxx  div{
+   border: 2px solid lightgrey;
+   width: 5vh;
+   height: 5vh;
+ }
+ .yellow i{
+   margin-left: 10px;
+   color: white;
+ }
+ .yellow{
+   background-color: yellow;
+
+ }
+ .grey{
+   background-color: grey;
+ }
+ .green{
+   background-color: green;
+ }
+ .list-unstyled li a i{
+   font-size: 35px;
+   color: grey;
+ }
