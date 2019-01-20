@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 .nav-grey {
     background-color: #809091;
@@ -72,29 +73,24 @@
 .borderz {
     border-radius: 0;
 }
+=======
+>>>>>>> 1fe83752487f622206c251ee1ab33593db8a4691
 
-.signUpImg {
-    background-image: url("img/female.jpg");
-    background-size: cover;
-    background-position: center;
+
+.f-title {
+    font-size: 20px;
+    font-weight: 600;
 }
 
-.bg-gradient {
-    height: 90vh;
-    background: linear-gradient(135deg, rgba(252,206,40,0.5) 0%,rgba(254,144,144,0.5) 45%,rgba(254,128,140,0.5) 63%,rgba(255,94,131,0.5) 100%);
+.footer hr {
+    border: 1px solid rgb(216, 216, 216);
 }
 
-.nopad {
-    padding-top: 0;
-    padding-bottom: 0;
-    padding-left: 0;
+.f-text {
+    font-size: 23px;
 }
 
-.signUpForm div input{
-    border: 0px;
-
-}
-
+<<<<<<< HEAD
 .flex {
     height: inherit;
     display: flex;
@@ -233,3 +229,13 @@
    background-color: grey;
    border: 1px solid grey;
 }
+=======
+.footer .krug a i {
+    padding: 7px;
+    border-radius: 100px;
+    background-color: grey;
+    color: white;
+    margin: 2px;
+    font-size: 20px;
+}
+>>>>>>> 1fe83752487f622206c251ee1ab33593db8a4691

@@ -1,391 +1,442 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>TShop</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
-
-        <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
-        <!-- jQuery  -->
-    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
-
-        <!-- Latest compiled and minified JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
-        <!-- My CSS -->
-    <link rel="stylesheet" href="style.css" type="text/css">
-
-</head>
-<body>
-    <nav class="nav text-uppercase navbar-inverse nav-grey">
-        <div class="container">          
+   <head>
+      <meta charset="utf-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <title>TShop</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+      <!-- Latest compiled and minified CSS -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+      <!-- jQuery  -->
+      <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+      <!-- Latest compiled and minified JavaScript -->
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+      <!-- My CSS -->
+      <link rel="stylesheet" href="style.css" type="text/css">
+   </head>
+   <body>
+      <nav class="nav text-uppercase navbar-inverse nav-grey">
+         <div class="container">
             <ul class="nav navbar-nav navbar-left">
-                <li>
-                    <a href="#">help</a>
-                </li>
-                <li>
-                    <a href="#">
-                        <i class="fas fa-phone"></i><span>+389 225 559</span>
-                    </a>
-                </li>
+               <li>
+                  <a href="#">help</a>
+               </li>
+               <li>
+                  <a href="#">
+                  <i class="fas fa-phone"></i><span>+389 225 559</span>
+                  </a>
+               </li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
-                    <li>
-                        <a href="#">my account</a>
-                    </li>
-                    <li>
-                        <a href="#">sign in</a>
-                    </li>
-                    <li>
-                        <a href="#signUpModal" data-toggle="modal">create account</a>
-                    </li>
-                </ul>
-        </div>
-    </nav>
-    <nav class="nav text-uppercase navbar-inverse nav-grey-2">
-            <div class="container">  
-                <div class="navbar-header">
-                    <a class="navbar-brand logo" href="index.html">TSHOP</a>
-                </div>
-                <ul class="nav navbar-nav navbar-left">
-                    <li>
-                        <a href="#">Home</a>
-                    </li>
-                    <li>
-                        <a href="#">new products</a>
-                    </li>
-                    <li>
-                        <a href="#">shop</a>
-                    </li>
-                    <li>
-                        <a href="#">pages</a>
-                    </li>
-                    <li>
-                        <a href="#">all page link</a>
-                    </li>
-                </ul>
-                
-                <ul class="nav navbar-nav navbar-right">
-                        <li>
-                            <a href="#">
-                                <i class="fas fa-shopping-cart"></i>
-                                cart ($54.00)
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#"><i class="fas fa-search"></i></a>
-                        </li>
-                    </ul>
+               <li>
+                  <a href="#">my account</a>
+               </li>
+               <li>
+                  <a href="#">sign in</a>
+               </li>
+               <li>
+                  
+                  <a href="#signUpModal" data-toggle="modal">create account</a>
+               </li>
+            </ul>
+         </div>
+      </nav>
+      <nav class="nav text-uppercase navbar-inverse nav-grey-2">
+         <div class="container">
+            <div class="navbar-header">
+               <a class="navbar-brand logo" href="index.html">TSHOP</a>
             </div>
-        </nav>
-
-                    
-     <div class="container-fluid">
-     	<div class="row">
-                <div id="homeCarousel" class="carousel slide text-uppercase bg-carousel-home" data-ride="carousel">
-                    <div class="carousel-inner" role="listbox">
-                        <div class="item active">
-                            <div class="row">
-                                <img src="img/slide_01.png" class="img-responsive">
-                                <div class="carousel-caption flex">
-                                    <h1>TSHOP</h1>
-                                    <h4>responsive ecommerce template</h4>  
-                                </div>
-                            </div>
+            <ul class="nav navbar-nav navbar-left">
+               <li>
+                  <a href="#">Home</a>
+               </li>
+               <li>
+                  <a href="#">new products</a>
+               </li>
+               <li>
+                  <a href="#">shop</a>
+               </li>
+               <li>
+                  <a href="#">pages</a>
+               </li>
+               <li>
+                  <a href="#">all page link</a>
+               </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+               <li>
+                  <a href="#">
+                  <i class="fas fa-shopping-cart"></i>
+                  cart ($54.00)
+                  </a>
+               </li>
+               <li>
+                  <a href="#"><i class="fas fa-search"></i></a>
+               </li>
+            </ul>
+         </div>
+      </nav>
+      <div class="container-fluid">
+         <div class="row">
+            <div id="homeCarousel" class="carousel slide text-uppercase bg-carousel-home" data-ride="carousel">
+               <div class="carousel-inner" role="listbox">
+                  <div class="item active">
+                     <div class="row">
+                        <img src="img/slide_01.png" class="img-responsive">
+                        <div class="carousel-caption flex">
+                           <h1>TSHOP</h1>
+                           <h4>responsive ecommerce template</h4>
                         </div>
-                        <div class="item">
-                            <div class="row">
-                                <img src="img/slide_02.png" class="img-responsive">
-                                <div class="carousel-caption flex">
-                                    <h1>TSHOP</h1>
-                                    <h4>responsive ecommerce template</h4>  
-                                </div>
-                            </div>
+                     </div>
+                  </div>
+                  <div class="item">
+                     <div class="row">
+                        <img src="img/slide_02.png" class="img-responsive">
+                        <div class="carousel-caption flex">
+                           <h1>TSHOP</h1>
+                           <h4>responsive ecommerce template</h4>
                         </div>
-                        <div class="item">
-                            <div class="row">
-                                <img src="img/slide_03.png" class="img-responsive">
-                                <div class="carousel-caption flex">
-                                    <h1>TSHOP</h1>
-                                    <h4>responsive ecommerce template</h4>  
-                                </div>
-                            </div>
+                     </div>
+                  </div>
+                  <div class="item">
+                     <div class="row">
+                        <img src="img/slide_03.png" class="img-responsive">
+                        <div class="carousel-caption flex">
+                           <h1>TSHOP</h1>
+                           <h4>responsive ecommerce template</h4>
                         </div>
-                    </div>
-                </div>
+                     </div>
+                  </div>
+               </div>
             </div>
-                       
-        
-	<div class="row padtop">
-		<div class="col-lg-3 slika">
-			<img src="img/product_01.png" class="img-fluid" alt="">
-			<div class="overlay">
-				<div class="text text-center">
-					<h3>Mens Shoes</h3>
-					<h2><b>$87</b></h2>
-					<button class="btn btn-lg btn-danger" data-toggle="modal" data-target="#exampleModal">Buy now!</button>
-				</div>
-			</div>
-		</div>
-		<div class="col-lg-3 slika">
-			<img src="img/product_03.png" class="img-fluid" alt="">
-			<div class="overlay">
-				<div class="text text-center">
-					<h3>Mens Shoes</h3>
-					<h2><b>$87</b></h2>
-					<button class="btn btn-lg btn-danger" data-toggle="modal" data-target="#exampleModal">Buy now!</button>
-				</div>
-			</div>
-		</div>
-		<div class="col-lg-3 slika">
-			<img src="img/product_01.png" class="img-fluid" alt="">
-			<div class="overlay">
-				<div class="text text-center">
-					<h3>Mens Shoes</h3>
-					<h2><b>$87</b></h2>
-					<button class="btn btn-lg btn-danger" data-toggle="modal" data-target="#exampleModal">Buy now!</button>
-				</div>
-			</div>
-		</div>
-		<div class="col-lg-3 slika">
-			<img src="img/product_03.png" class="img-fluid" alt="">
-			<div class="overlay">
-				<div class="text text-center">
-					<h3>Mens Shoes</h3>
-					<h2><b>$87</b></h2>
-					<button class="btn btn-lg btn-danger" data-toggle="modal" data-target="#exampleModal">Buy now!</button>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="row padbot">
-		<div class="col-lg-3 slika">
-			<img src="img/product_03.png" class="img-fluid" alt="">
-			<div class="overlay">
-				<div class="text text-center">
-					<h3>Mens Shoes</h3>
-					<h2><b>$87</b></h2>
-					<button class="btn btn-lg btn-danger" data-toggle="modal" data-target="#exampleModal">Buy now!</button>
-				</div>
-			</div>
-		</div>
-		<div class="col-lg-3 slika">
-			<img src="img/product_01.png" class="img-fluid" alt="">
-			<div class="overlay">
-				<div class="text text-center">
-					<h3>Mens Shoes</h3>
-					<h2><b>$87</b></h2>
-					<button class="btn btn-lg btn-danger" data-toggle="modal" data-target="#exampleModal">Buy now!</button>
-				</div>
-			</div>
-		</div>
-		<div class="col-lg-3 slika">
-			<img src="img/product_03.png" class="img-fluid" alt="">
-			<div class="overlay">
-				<div class="text text-center">
-					<h3>Mens Shoes</h3>
-					<h2><b>$87</b></h2>
-					<button class="btn btn-lg btn-danger" data-toggle="modal" data-target="#exampleModal">Buy now!</button>
-				</div>
-			</div>
-		</div>
-		<div class="col-lg-3 slika">
-			<img src="img/product_01.png" class="img-fluid" alt="">
-			<div class="overlay">
-				<div class="text text-center">
-					<h3>Mens Shoes</h3>
-					<h2><b>$87</b></h2>
-					<button class="btn btn-lg btn-danger" data-toggle="modal" data-target="#exampleModal">Buy now!</button>
-
-	</div>
-</div>
-</div>
-</div>
-<div class="row">
-	<h2 class="text-uppercase bold text-center">Testimonials</h2>
-	<hr class="greenhr">
-	
-</div>
-<div class="row">
-	<div class="col-lg-8 col-md-8 col-lg-offset-2 col-md-offset-2">
-			<div id="myCarousel" class="carousel slide" data-ride="carousel">
-
-  <ol class="carousel-indicators">
-    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-    <li data-target="#myCarousel" data-slide-to="1"></li>
-    <li data-target="#myCarousel" data-slide-to="2"></li>
-  </ol>
-
-  <div class="carousel-inner">
-    <div class="item active testi text-center">
-      <img src="img/profile.png" alt="" class="img-responsive img-circle">
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id possimus qui, quidem neque perspiciatis, maxime. Recusandae accusamus amet deleniti debitis dignissimos cum provident quos, aliquam fugiat ab. Necessitatibus, tempore, unde. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos alias amet corporis quis recusandae distinctio ea voluptate, nam consequatur similique blanditiis placeat rem magnam, culpa at cupiditate. Quae, perferendis voluptas.</p>
-        <p><span class="greentext">PAUL WILSON</span>, Media Analyst</p>
-      
-    </div>
-
-    <div class="item testi text-center">
-       <img src="img/profile.png" alt="" class="img-responsive img-circle">
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id possimus qui, quidem neque perspiciatis, maxime. Recusandae accusamus amet deleniti debitis dignissimos cum provident quos, aliquam fugiat ab. Necessitatibus, tempore, unde. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos alias amet corporis quis recusandae distinctio ea voluptate, nam consequatur similique blanditiis placeat rem magnam, culpa at cupiditate. Quae, perferendis voluptas.</p>
-        <p><span class="greentext">PAUL WILSON</span>, Media Analyst</p>
-    </div>
-
-    <div class="item testi text-center">
-      <img src="img/profile.png" alt="" class="img-responsive img-circle">
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id possimus qui, quidem neque perspiciatis, maxime. Recusandae accusamus amet deleniti debitis dignissimos cum provident quos, aliquam fugiat ab. Necessitatibus, tempore, unde. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos alias amet corporis quis recusandae distinctio ea voluptate, nam consequatur similique blanditiis placeat rem magnam, culpa at cupiditate. Quae, perferendis voluptas.</p>
-        <p><span class="greentext">PAUL WILSON</span>, Media Analyst</p>
-    </div>
-  </div>
-
-  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="right carousel-control" href="#myCarousel" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
-	</div>
-</div>
-</div>
-	<div id="exampleModal" class="modal fade" role="dialog">
-		<div class="modal-dialog">
-			<div class="modal-content">
-				<div class="modal-header">
-					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-				</div>
-				<div class="modal-body">
-					<div class="row">
-						<div class="col-lg-5 col-md-5">
-							<img src="https://fordhamffp.files.wordpress.com/2017/11/e1d12aa5b7ad7b206ab0599994452b85-fashion-model-poses-fashion-shoot.jpg" alt="" class="img-responsive">
-							<hr>
-							<div class="flexx">
-								<img src="https://fordhamffp.files.wordpress.com/2017/11/e1d12aa5b7ad7b206ab0599994452b85-fashion-model-poses-fashion-shoot.jpg" alt="" class="bor">
-								<img src="https://fordhamffp.files.wordpress.com/2017/11/e1d12aa5b7ad7b206ab0599994452b85-fashion-model-poses-fashion-shoot.jpg" alt="">
-								<img src="https://fordhamffp.files.wordpress.com/2017/11/e1d12aa5b7ad7b206ab0599994452b85-fashion-model-poses-fashion-shoot.jpg" alt="">
-							</div>
-						</div>
-						<div class="col-lg-7 col-md-7">
-							<h3 class="text-uppercase">Lorem ipsum dolor sit amet</h3>
-							<h4 class="text-muted text-uppercase">product code :Den1098</h4>
-							<h3>$70 <span class="text-muted t">$95</span></h3>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
-							<hr>
-							<h5>COLOR</h5>
-							<div class="flexxx">
-								<div class="yellow">
-									<i class="fas fa-check"></i>
-								</div>
-								<div class="grey">
-									
-								</div>
-								<div class="green">
-									
-								</div>
-							</div>
-							<hr>
-							<div class="row">
-								<div class="col-lg-6">
-									<div class="form-group">
-										<select name="" id="" class="form-control">
-											<option value="Quantity">Quantity</option>
-											<option value="Quantity">Quantity1</option>
-											<option value="Quantity">Quantity2</option>
-											<option value="Quantity">Quantity3</option>
-										</select>
-										
-									</div>
-									<div class="form-group">
-											<button class="btn btn-primary btn-block" type="button">ADD TO CART</button>
-										</div>
-								</div>
-								<div class="col-lg-6">
-									<div class="form-group">
-										<select name="" id="" class="form-control">
-											<option value="Quantity">Size</option>
-											<option value="Quantity">Size1</option>
-											<option value="Quantity">Size2</option>
-											<option value="Quantity">Size3</option>
-										</select>
-									</div>
-									<div class="form-group">
-											<button class="btn btn-primary btn-block" type="button">ADD TO WISHLIST</button>
-										</div>
-								</div>
-							</div>
-							<hr>
-							<h4 class="text-muted">SHARE:</h4>
-							<ul class="list-unstyled list-inline">
-								<li><a href="#"><i class="fab fa-facebook"></i></a></li>
-								<li><a href="#"><i class="fab fa-twitter-square"></i></a></li>
-								<li><a href="#"><i class="fab fa-google-plus-square"></i></a></li>
-								<li><a href="#"><i class="fab fa-pinterest-square"></i></a></li>
-							</ul>
-						</div>
-
-					</div>
-
-				</div>
-			</div>
-		</div>
-</div>
-
-<div class="modal fade" id="signUpModal" tabindex="-1" role="dialog" aria-labelledby="signUpModalLabel">
-	  <div class="modal-dialog" role="document">
-                              <div class="modal-content borderz">
-                                <div class="modal-body nopad">
-                                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                    <div class="row">
-                                        <div class="col-md-7">
-                                            <div class="signUpImg">
-                                                <div class="bg-gradient"></div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-5">
-                                            <h2>Sign Up</h2>
-                                            <form class="form text-capitalize signUpForm">
-                                                <label for="fullName">Full Name</label>
-                                                <div class="form-group">
-                                                    <input type="text" class="form-control" id="fullName" placeholder="Name...">
-                                                </div>
-                                                <label for="fullName">Email</label>
-                                                <div class="form-group">
-                                                    <input type="text" class="form-control" id="fullName" placeholder="Email...">
-                                                </div>
-                                                <label for="fullName">Username</label>
-                                                <div class="form-group">
-                                                    <input type="text" class="form-control" id="fullName" placeholder="Username...">
-                                                </div>
-                                                <label for="password">Password</label>
-                                                <div class="form-group">
-                                                    <input type="password" class="form-control" id="password" placeholder="******">
-                                                </div>
-                                                <label for="rPassword">Repeat Password</label>
-                                                <div class="form-group">
-                                                    <input type="password" class="form-control" id="rPassword" placeholder="*****">
-                                                </div>
-                                                <div class="form-group termsconditions">
-                                                    <input type="checkbox">I agree to the terms and conditions
-                                                </div>
-                                                <button type="submit" class="btn signupbtn">Sign Up</button>
-                                                <button type="submit" class="btn">Sign In</button>
-                                            </form>
-                                        </div>
-                                    </div>
-                                </div>
+         </div>
+         <div class="row padtop">
+            <div class="col-lg-3 slika">
+               <img src="img/product_01.png" class="img-fluid" alt="">
+               <div class="overlay">
+                  <div class="text text-center">
+                     <h3>Mens Shoes</h3>
+                     <h2><b>$87</b></h2>
+                     <button class="btn btn-lg btn-danger" data-toggle="modal" data-target="#exampleModal">Buy now!</button>
+                  </div>
+               </div>
+            </div>
+            <div class="col-lg-3 slika">
+               <img src="img/product_03.png" class="img-fluid" alt="">
+               <div class="overlay">
+                  <div class="text text-center">
+                     <h3>Mens Shoes</h3>
+                     <h2><b>$87</b></h2>
+                     <button class="btn btn-lg btn-danger" data-toggle="modal" data-target="#exampleModal">Buy now!</button>
+                  </div>
+               </div>
+            </div>
+            <div class="col-lg-3 slika">
+               <img src="img/product_01.png" class="img-fluid" alt="">
+               <div class="overlay">
+                  <div class="text text-center">
+                     <h3>Mens Shoes</h3>
+                     <h2><b>$87</b></h2>
+                     <button class="btn btn-lg btn-danger" data-toggle="modal" data-target="#exampleModal">Buy now!</button>
+                  </div>
+               </div>
+            </div>
+            <div class="col-lg-3 slika">
+               <img src="img/product_03.png" class="img-fluid" alt="">
+               <div class="overlay">
+                  <div class="text text-center">
+                     <h3>Mens Shoes</h3>
+                     <h2><b>$87</b></h2>
+                     <button class="btn btn-lg btn-danger" data-toggle="modal" data-target="#exampleModal">Buy now!</button>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="row padbot">
+            <div class="col-lg-3 slika">
+               <img src="img/product_03.png" class="img-fluid" alt="">
+               <div class="overlay">
+                  <div class="text text-center">
+                     <h3>Mens Shoes</h3>
+                     <h2><b>$87</b></h2>
+                     <button class="btn btn-lg btn-danger" data-toggle="modal" data-target="#exampleModal">Buy now!</button>
+                  </div>
+               </div>
+            </div>
+            <div class="col-lg-3 slika">
+               <img src="img/product_01.png" class="img-fluid" alt="">
+               <div class="overlay">
+                  <div class="text text-center">
+                     <h3>Mens Shoes</h3>
+                     <h2><b>$87</b></h2>
+                     <button class="btn btn-lg btn-danger" data-toggle="modal" data-target="#exampleModal">Buy now!</button>
+                  </div>
+               </div>
+            </div>
+            <div class="col-lg-3 slika">
+               <img src="img/product_03.png" class="img-fluid" alt="">
+               <div class="overlay">
+                  <div class="text text-center">
+                     <h3>Mens Shoes</h3>
+                     <h2><b>$87</b></h2>
+                     <button class="btn btn-lg btn-danger" data-toggle="modal" data-target="#exampleModal">Buy now!</button>
+                  </div>
+               </div>
+            </div>
+            <div class="col-lg-3 slika">
+               <img src="img/product_01.png" class="img-fluid" alt="">
+               <div class="overlay">
+                  <div class="text text-center">
+                     <h3>Mens Shoes</h3>
+                     <h2><b>$87</b></h2>
+                     <button class="btn btn-lg btn-danger" data-toggle="modal" data-target="#exampleModal">Buy now!</button>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="row">
+            <h2 class="text-uppercase bold text-center">Testimonials</h2>
+            <hr class="greenhr">
+         </div>
+         <div class="row">
+            <div class="col-lg-8 col-md-8 col-lg-offset-2 col-md-offset-2">
+               <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                  <ol class="carousel-indicators">
+                     <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                     <li data-target="#myCarousel" data-slide-to="1"></li>
+                     <li data-target="#myCarousel" data-slide-to="2"></li>
+                  </ol>
+                  <div class="carousel-inner">
+                     <div class="item active testi text-center">
+                        <img src="img/profile.png" alt="" class="img-responsive img-circle">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id possimus qui, quidem neque perspiciatis, maxime. Recusandae accusamus amet deleniti debitis dignissimos cum provident quos, aliquam fugiat ab. Necessitatibus, tempore, unde. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos alias amet corporis quis recusandae distinctio ea voluptate, nam consequatur similique blanditiis placeat rem magnam, culpa at cupiditate. Quae, perferendis voluptas.</p>
+                        <p><span class="greentext">PAUL WILSON</span>, Media Analyst</p>
+                     </div>
+                     <div class="item testi text-center">
+                        <img src="img/profile.png" alt="" class="img-responsive img-circle">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id possimus qui, quidem neque perspiciatis, maxime. Recusandae accusamus amet deleniti debitis dignissimos cum provident quos, aliquam fugiat ab. Necessitatibus, tempore, unde. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos alias amet corporis quis recusandae distinctio ea voluptate, nam consequatur similique blanditiis placeat rem magnam, culpa at cupiditate. Quae, perferendis voluptas.</p>
+                        <p><span class="greentext">PAUL WILSON</span>, Media Analyst</p>
+                     </div>
+                     <div class="item testi text-center">
+                        <img src="img/profile.png" alt="" class="img-responsive img-circle">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id possimus qui, quidem neque perspiciatis, maxime. Recusandae accusamus amet deleniti debitis dignissimos cum provident quos, aliquam fugiat ab. Necessitatibus, tempore, unde. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos alias amet corporis quis recusandae distinctio ea voluptate, nam consequatur similique blanditiis placeat rem magnam, culpa at cupiditate. Quae, perferendis voluptas.</p>
+                        <p><span class="greentext">PAUL WILSON</span>, Media Analyst</p>
+                     </div>
+                  </div>
+                  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                  <span class="glyphicon glyphicon-chevron-left"></span>
+                  <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                  <span class="glyphicon glyphicon-chevron-right"></span>
+                  <span class="sr-only">Next</span>
+                  </a>
+               </div>
+            </div>
+         </div>
+         <div class="row footer padtop">
+         <div class="col-md-10 col-md-offset-1">
+            <div class="row">
+               <div class="col-md-3">
+                  <h4 class="text-uppercase f-title">support</h4>
+                  <hr>
+                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                  <p class="f-text"><b><i class="fas fa-phone"></i>+389 2255 555</b></p>
+                  <p class="f-text"><i class="far fa-envelope"></i>help@mail.com</p>
+               </div>
+               <div class="col-md-6">
+                  <div class="row">
+                     <div class="col-md-4">
+                        <h4 class="text-uppercase f-title">shop</h4>
+                        <hr>
+                        <ul class="list-unstyled">
+                           <li>Item</li>
+                           <li>Item</li>
+                           <li>Item</li>
+                           <li>Item</li>
+                           <li>Item</li>
+                        </ul>
+                     </div>
+                     <div class="col-md-4">
+                        <h4 class="text-uppercase f-title">information</h4>
+                        <hr>
+                        <ul class="list-unstyled">
+                           <li>Item</li>
+                           <li>Item</li>
+                           <li>Item</li>
+                           <li>Item</li>
+                           <li>Item</li>
+                        </ul>
+                     </div>
+                     <div class="col-md-4">
+                        <h4 class="text-uppercase f-title">my account</h4>
+                        <hr>
+                        <ul class="list-unstyled">
+                           <li>Item</li>
+                           <li>Item</li>
+                           <li>Item</li>
+                           <li>Item</li>
+                           <li>Item</li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-3">
+                  <h4 class="text-uppercase f-title">stay in touch</h4>
+                  <hr>
+                  <form class="form text-center">
+                     <div class="form-group">
+                        <input type="email" class="form-control" placeholder="email">
+                     </div>
+                     <div class="form-group">
+                        <button type="submit" class="btn btn-block">Subscribe</button>
+                     </div>
+                  </form>
+                  <div class="form-group">
+                     <ul class="list-unstyled list-inline krug">
+                     <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+                     <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+                     <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+                     <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+                     <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+                  </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      </div>
+      <div id="exampleModal" class="modal fade" role="dialog">
+         <div class="modal-dialog">
+            <div class="modal-content">
+               <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+               </div>
+               <div class="modal-body">
+                  <div class="row">
+                     <div class="col-lg-5 col-md-5">
+                        <img src="https://fordhamffp.files.wordpress.com/2017/11/e1d12aa5b7ad7b206ab0599994452b85-fashion-model-poses-fashion-shoot.jpg" alt="" class="img-responsive">
+                        <hr>
+                        <div class="flexx">
+                           <img src="https://fordhamffp.files.wordpress.com/2017/11/e1d12aa5b7ad7b206ab0599994452b85-fashion-model-poses-fashion-shoot.jpg" alt="" class="bor">
+                           <img src="https://fordhamffp.files.wordpress.com/2017/11/e1d12aa5b7ad7b206ab0599994452b85-fashion-model-poses-fashion-shoot.jpg" alt="">
+                           <img src="https://fordhamffp.files.wordpress.com/2017/11/e1d12aa5b7ad7b206ab0599994452b85-fashion-model-poses-fashion-shoot.jpg" alt="">
+                        </div>
+                     </div>
+                     <div class="col-lg-7 col-md-7">
+                        <h3 class="text-uppercase">Lorem ipsum dolor sit amet</h3>
+                        <h4 class="text-muted text-uppercase">product code :Den1098</h4>
+                        <h3>$70 <span class="text-muted t">$95</span></h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+                        <hr>
+                        <h5>COLOR</h5>
+                        <div class="flexxx">
+                           <div class="yellow">
+                              <i class="fas fa-check"></i>
+                           </div>
+                           <div class="grey">
+                           </div>
+                           <div class="green">
+                           </div>
+                        </div>
+                        <hr>
+                        <div class="row">
+                           <div class="col-lg-6">
+                              <div class="form-group">
+                                 <select name="" id="" class="form-control">
+                                    <option value="Quantity">Quantity</option>
+                                    <option value="Quantity">Quantity1</option>
+                                    <option value="Quantity">Quantity2</option>
+                                    <option value="Quantity">Quantity3</option>
+                                 </select>
                               </div>
-                            </div>
-                          </div>
-                
+                              <div class="form-group">
+                                 <button class="btn btn-primary btn-block" type="button">ADD TO CART</button>
+                              </div>
+                           </div>
+                           <div class="col-lg-6">
+                              <div class="form-group">
+                                 <select name="" id="" class="form-control">
+                                    <option value="Quantity">Size</option>
+                                    <option value="Quantity">Size1</option>
+                                    <option value="Quantity">Size2</option>
+                                    <option value="Quantity">Size3</option>
+                                 </select>
+                              </div>
+                              <div class="form-group">
+                                 <button class="btn btn-primary btn-block" type="button">ADD TO WISHLIST</button>
+                              </div>
+                           </div>
+                        </div>
+                        <hr>
+                        <h4 class="text-muted">SHARE:</h4>
+                        <ul class="list-unstyled list-inline">
+                           <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                           <li><a href="#"><i class="fab fa-twitter-square"></i></a></li>
+                           <li><a href="#"><i class="fab fa-google-plus-square"></i></a></li>
+                           <li><a href="#"><i class="fab fa-pinterest-square"></i></a></li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="modal fade" id="signUpModal" tabindex="-1" role="dialog" aria-labelledby="signUpModalLabel">
+         <div class="modal-dialog" role="document">
+            <a data-toggle="modal" href="#signUpModal">create account</a>
+            <div class="modal fade" id="signUpModal" tabindex="-1" role="dialog" aria-labelledby="signUpModalLabel">
+               <div class="modal-dialog" role="document">
+                  <div class="modal-content borderz">
+                     <div class="modal-body nopad">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <div class="row">
+                           <div class="col-md-7">
+                              <div class="signUpImg">
+                                 <div class="bg-gradient"></div>
+                              </div>
+                           </div>
+                           <div class="col-md-5">
+                              <h2>Sign Up</h2>
+                              <form class="form text-capitalize signUpForm">
+                                 <label for="fullName">Full Name</label>
+                                 <div class="form-group">
+                                    <input type="text" class="form-control" id="fullName" placeholder="Name...">
+                                 </div>
+                                 <label for="fullName">Email</label>
+                                 <div class="form-group">
+                                    <input type="text" class="form-control" id="fullName" placeholder="Email...">
+                                 </div>
+                                 <label for="fullName">Username</label>
+                                 <div class="form-group">
+                                    <input type="text" class="form-control" id="fullName" placeholder="Username...">
+                                 </div>
+                                 <label for="password">Password</label>
+                                 <div class="form-group">
+                                    <input type="password" class="form-control" id="password" placeholder="******">
+                                 </div>
+                                 <label for="rPassword">Repeat Password</label>
+                                 <div class="form-group">
+                                    <input type="password" class="form-control" id="rPassword" placeholder="*****">
+                                 </div>
+                                 <div class="form-group termsconditions">
+                                    <input type="checkbox">I agree to the terms and conditions
+                                 </div>
+                                 <button type="submit" class="btn">Sign Up</button>
+                                 <button type="submit" class="btn">Sign In</button>
+                              </form>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            </ul>
+         </div>
+      </div>
 
-             
-   
-
-</body>
+      
+      
+   </body>
 </html>
